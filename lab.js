@@ -149,7 +149,14 @@ function totalPopulation( obj ){
 
 //Code Here
 
-
+function ingredients( obj ){
+  const {carb: carbs} = obj;
+  const {fat: fats} = obj;
+  const {protein: proteins} = obj;
+  let ingredientValues = [];
+  ingredientValues.push(carbs, fats, proteins);
+  return ingredientValues;
+};
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
