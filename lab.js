@@ -109,13 +109,13 @@ var {year: carYear} = carDetails;
 
 function greeting( obj ) {
   //Code Here
-  
+  const {firstName: firstName} = obj;
+  const {lastName: lastName} = obj;
+  const {title: title} = obj;
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
-}
-
-
+};
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
 
