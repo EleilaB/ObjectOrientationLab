@@ -6,7 +6,10 @@
 
 //Code here
 
-
+const me = {
+  name: `Eleila`,
+  age: 22,
+}
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
 
@@ -17,14 +20,19 @@
 
 //Code here
 
-
+const dog = {
+  name: `Ninita`,
+  color: `white and brown`,
+  age: 14,
+  goodGirl: true,
+}
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
 
-
+console.log(dog.name)
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
