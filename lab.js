@@ -129,7 +129,13 @@ function greeting( obj ) {
 
 //Code Here
 
-
+function totalPopulation( obj ){
+  const {utah: utahPop} = obj;
+  const {california: caliPop} = obj;
+  const {texas: texasPop} = obj;
+  const {arizona: arizonaPop} = obj;
+  return arizonaPop + texasPop + caliPop + utahPop;
+};
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
