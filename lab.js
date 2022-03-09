@@ -94,7 +94,10 @@ var carDetails = {
 
 //Code Here
 
-
+var {color: carColor} = carDetails;
+var {make: carMake} = carDetails;
+var {model: carModel} = carDetails;
+var {year: carYear} = carDetails;
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
